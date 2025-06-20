@@ -1,0 +1,112 @@
+{% extends 'base.html'%}
+{%block title %}
+Services
+{% endblock title %}
+
+{% block body %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Ice Cream Delight</title>
+    <style>
+        *{
+            direction: ltr;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fef8f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .services-section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .service {
+            background-color: #fff5f0;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease;
+        }
+
+        .service:hover {
+            transform: scale(1.02);
+        }
+
+        .service h2 {
+            color: #d1495b;
+        }
+
+        .service p {
+            color: #444;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff6f61;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            .services-section {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🍦 Ice Cream Delight - Our Services</h1>
+    </header>
+
+    <section class="services-section">
+        <div class="service">
+            <h2>Custom Ice Cream Orders</h2>
+            <p>Choose your favorite flavors, toppings, and cones to create your dream ice cream. Available in-store and online!</p>
+        </div>
+
+        <div class="service">
+            <h2>Event Catering</h2>
+            <p>Make your events memorable with our mobile ice cream cart! Perfect for weddings, birthdays, and corporate parties.</p>
+        </div>
+
+        <div class="service">
+            <h2>Seasonal Specials</h2>
+            <p>Enjoy limited-edition flavors and exclusive toppings during special seasons and festivals — only for a short time!</p>
+        </div>
+
+        <div class="service">
+            <h2>Home Delivery</h2>
+            <p>Get your favorite scoops delivered straight to your doorstep, cold and creamy. Order via our app or website.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Ice Cream Delight | All rights reserved.
+    </footer>
+
+</body>
+</html>
+
+{% endblock body %}

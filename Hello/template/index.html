@@ -1,0 +1,221 @@
+{% extends 'base.html'%}
+{%block title %}
+Home
+{% endblock title %}
+https
+{% block body %} 
+<style>
+  nav {
+    background-color: hwb(71 72% 1%);
+  }
+  img {
+    width: 100%;
+    height: 500px;
+  }
+  h2{
+    color: hwb(0 0% 100%);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px; 
+  }
+  </style>
+<div class="container-fluid my-4">
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <title>slide1</title>
+      <img src="/static/img/4.jfif" sizes="800*800" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h3>welcome buddy</h3>
+        <h4>i know what you are craving of...</h4>
+      </div>
+    </div>
+   
+    <div class="carousel-item">
+      <img src="/static/img/3.jfif" class="d-block w-100" alt="A group of friends laughing together at a picnic table in a sunny park with trees and grass in the background. Everyone appears relaxed and joyful, sharing food and enjoying each others company. No visible text in the image. The atmosphere is warm and cheerful.">
+      <div class="carousel-caption">
+        <h3>go down</h3>
+        <h4>allowed only if you have a partner😜</h4>
+      </div>
+    </div>
+     <div class="carousel-item">
+       <img src="/static/img/2.jfif" class="d-block w-100" alt="...">
+       <div class="carousel-caption">
+        <h3>want to have some fun</h3>
+        <h4>thinkof your favourite ice cream</h4>
+      </div>
+     </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+
+
+
+
+<div lang="en" dir="ltr">
+  <div class="bd-content">
+    <h2 id="snippets">Snippets</h2>
+    <p>Common patterns for building sites and apps that build on existing components and utilities with custom CSS and more.</p>
+    <div class="row">
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/headers/">
+          <img class="img-thumbnail mb-3"
+               
+               src="/static/img/4.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">Headers</h3>
+        </a>
+        <p class="text-body-secondary">Display your branding, navigation, search, and more with these header components</p>
+      </article>
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/heroes/">
+          <img class="img-thumbnail mb-3"
+               src="/static/img/4.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">Heroes</h3>
+        </a>
+        <p class="text-body-secondary">Set the stage on your homepage with heroes that feature clear calls to action.</p>
+      </article>
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/features/">
+          <img class="img-thumbnail mb-3"
+                src="/static/img/3.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">Features</h3>
+        </a>
+        <p class="text-body-secondary">Explain the features, benefits, or other details in your marketing content.</p>
+      </article>
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/sidebars/">
+          <img class="img-thumbnail mb-3"
+               src="/static/img/2.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">Sidebars</h3>
+        </a>
+        <p class="text-body-secondary">Common navigation patterns ideal for offcanvas or multi-column layouts.</p>
+      </article>
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/footers/">
+          <img class="img-thumbnail mb-3"
+                src="/static/img/2.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">Footers</h3>
+        </a>
+        <p class="text-body-secondary">Finish every page strong with an awesome footer, big or small.</p>
+      </article>
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/dropdowns/">
+          <img class="img-thumbnail mb-3"
+               src="/static/img/3.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">Dropdowns</h3>
+        </a>
+        <p class="text-body-secondary">Enhance your dropdowns with filters, icons, custom styles, and more.</p>
+      </article>
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/list-groups/">
+          <img class="img-thumbnail mb-3"
+               src="/static/img/3.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">List groups</h3>
+        </a>
+        <p class="text-body-secondary">Extend list groups with utilities and custom styles for any content.</p>
+      </article>
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/modals/">
+          <img class="img-thumbnail mb-3"
+                src="/static/img/3.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">Modals</h3>
+        </a>
+        <p class="text-body-secondary">Transform modals to serve any purpose, from feature tours to dialogs.</p>
+      </article>
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/badges/">
+          <img class="img-thumbnail mb-3"
+                src="/static/img/4.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">Badges</h3>
+        </a>
+        <p class="text-body-secondary">Make badges work with custom inner HTML and new looks.</p>
+      </article>
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/breadcrumbs/">
+          <img class="img-thumbnail mb-3"
+               src="/static/img/3.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">Breadcrumbs</h3>
+        </a>
+        <p class="text-body-secondary">Integrate custom icons and create stepper components.</p>
+      </article>
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/buttons/">
+          <img class="img-thumbnail mb-3"
+                src="/static/img/2.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">Buttons</h3>
+        </a>
+        <p class="text-body-secondary">Create custom buttons for just about any use case with utilities.</p>
+      </article>
+      <article class="col-sm-6 col-md-3 mb-3">
+        <a class="d-block link-offset-1" href="/docs/5.3/examples/jumbotrons/">
+          <img class="img-thumbnail mb-3"
+               src="/static/img/4.jfif"
+               alt=""
+               width="480"
+               height="300"
+               loading="lazy">
+          <h3 class="h5 mb-1">Jumbotrons</h3>
+        </a>
+        <p class="text-body-secondary">Create modernized versions of the classic Bootstrap component.</p>
+      </article>
+    </div>
+  </div>
+
+
+</div>
+{% endblock body %}
+
+

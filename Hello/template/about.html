@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{%block title %}
+About
+{% endblock title %}
+
+{% block body %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Ajeet Ice Creams</title>
+    <style>
+        body {
+            direction: ltr;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff7f2;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff7f50;
+            color: white;
+            text-align: center;
+            padding: 25px 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .about {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            line-height: 1.6;
+        }
+
+        .contact {
+            margin-top: 30px;
+            background-color: #fff8f4;
+            border-left: 5px solid #ff7f50;
+            padding: 15px 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ff7f50;
+            color: white;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🍨 About Ajeet Ice Creams</h1>
+    </header>
+
+    <div class="container">
+        <div class="about">
+            <h2>Our Story</h2>
+            <p>
+                Ajeet Ice Creams started with a simple mission: to bring smiles with every scoop. From small beginnings in our local town, we’ve grown into a beloved name known for our creamy textures, creative flavors, and warm service.
+            </p>
+            <p>
+                Whether it's a family outing, a birthday party, or a solo treat, we’re here to make your moments sweeter. Every cone we serve is made with love and the finest ingredients — because you deserve the best!
+            </p>
+        </div>
+
+        <div class="contact">
+            <h3>📞 Contact Us</h3>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Email:</strong> info@ajeeticecreams.com</p>
+            <p><strong>Visit Us:</strong> 123, Main Street, YourCity, India</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Ajeet Ice Creams | Crafted with ❤️ for sweet moments.
+    </footer>
+
+</body>
+</html>
+
+{% endblock body %}
